@@ -121,11 +121,11 @@ python infer.py --data "./inference_dataset" --num_workers 8 --batch_size 8 --de
 | Deep WaveNet |  .29  | 28.62  |  .83   |
 
 
-- Below are our results for the EUVP Datasetthe with the combined models:
+- Below are our results for the EUVP Dataset with both of the combined models:
 
-|        **Method**        | `MSE` | `PSNR` | `SSIM` |
-| ------------------------ | :---: | :----: | :----: |
-| Deep WaveNet + FuNIE-GAN |  .29  |  28.22 |  .84   | 
+|        **Method**        | `MSE` | `PSNR` | `SSIM` | `UIQM` | `UICM` | `UISM` | `UICONM` |
+| ------------------------ | :---: | :----: | :----: | :----: | :----: | :----: |  :----:  |
+| Deep WaveNet + FuNIE-GAN |  .29  |  28.22 |  .84   |  3.00  |  5.21  |  6.68  |  0.2462  |
 
 ### License and Citation
 - The usage of this software is only for academic purposes. One can not use it for commercial products in any form. 
