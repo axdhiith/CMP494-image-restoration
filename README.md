@@ -125,7 +125,7 @@ python infer.py --data "./inference_dataset" --num_workers 8 --batch_size 8 --de
 
 |        **Method**        | `MSE` | `PSNR` | `SSIM` |
 | ------------------------ | :---: | :----: | :----: |
-| Deep WaveNet + FuNIE-GAN |    |   |     |
+| Deep WaveNet + FuNIE-GAN |  .29  |  28.22 |  .84   | 
 
 ### License and Citation
 - The usage of this software is only for academic purposes. One can not use it for commercial products in any form. 
