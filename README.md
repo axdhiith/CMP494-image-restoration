@@ -135,7 +135,6 @@ python infer.py --data "./inference_dataset" --num_workers 8 --batch_size 8 --de
 
 ### License and Citation
 - The usage of this software is only for academic purposes. One can not use it for commercial products in any form. 
-- If you use this work or codes (for academic purposes only), please cite the following:
 ```
 @misc{sharma2021wavelengthbased,
       title={Wavelength-based Attributed Deep Neural Network for Underwater Image Restoration}, 
