@@ -16,6 +16,7 @@ The FuNIE-GAN architecture used the PyTorch implementation from the paper **Fast
 
 ### Results
 DeepWave-Net Model Architecture:
+
 ![deepwavenet](https://github.com/axdhiith/CMP494-image-restoration/assets/124057930/6b29e2cb-42cf-42d9-a09f-f187a146a214)
 
 FUnIE-GAN Model:
