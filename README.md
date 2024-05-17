@@ -1,12 +1,12 @@
 ## Deep WaveNet and FuNIE-GAN 
 
-Our project consists of a modified architecture where Deep WaveNet along with FuNIE-GAN is used to further enhance the image restoration process. 
+This project consists of a modified architecture where Deep WaveNet along with FuNIE-GAN is used to further enhance the image restoration process. 
 The DeepWaveNet architecture used in our project is from the paper **Wavelength-based Attributed Deep Neural Network for Underwater Image Restoration**
 [**arXiv version**](https://arxiv.org/abs/2106.07910)   
 
 The FuNIE-GAN architecture used the PyTorch implementation from the paper **Fast Underwater Image Enhancement for Improved Visual Perception** [**arXiv version**](https://arxiv.org/pdf/1903.09766.pdf).
 
-- This project deals with the **Underwater Image Restoration**, where it performs image enhancement on hazy underwater images as these images would suffer from low contrast and high color distortions as it propagates through the water.
+- This project deals with the **Underwater Image Restoration**, where it performs image enhancement on hazy underwater images as these images would suffer from low contrast and high color distortions as it propagates through the water. There could be suspension of other particles, refraction of light, scattering and low visibility that could affect the quality of these images.
   - This model performs a low-level vision task such as **image enhancement** along with the enhancement performed by FuNIE-GAN.
   - For further enhancement of the metrics evaluated in DeepWaveNet, the enhanced images from this model is then fed into the FuNIE-GAN to further improve the quality of these images. The objective of this is to improve the model's performance and the metrics and benchmark it with the SOTA models as well.
 
